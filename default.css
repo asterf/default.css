@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+html{
+	width: 100vw;
+	height: 100vh;
+
+	.solarized {
+  	--mono-darkest:  #002b36;
+  	--mono-darker:   #073642;
+  	--mono-dark:     #586e75;
+  	--mono-mid:      #657b83;
+  	--mono-light:    #839496;
+  	--mono-lighter:  #93a1a1;
+  	--mono-lightest: #eee8d5;
+	  --mono-white:    #fdf6e3;
+
+  	--yellow:  #b58900;
+  	--orange:  #cb4b16;
+  	--red:     #dc322f;
+  	--magenta: #d33682;
+  	--violet:  #6c71c4;
+  	--blue:    #268bd2;
+  	--cyan:    #2aa198;
+  	--green:   #859900;
+
+  	&.dark {
+    	--bg: var(--mono-darkest);
+    	--fg: var(--mono-light);
+  	}
+
+	  &.white {
+    	--bg: var(--mono-white);
+    	--fg: var(--mono-mid);
+  	}
+	}
+
+
+	& body{
+		width: 100%;
+		height: 100%;
+		backgroung: #fff;
+		color: #000;
+
+		.flex{
+			display: flex;
+			flex-direction: column;
+
+			.center{
+				align-items: center;
+				justify-content: center;
+			}
+		}
+	}
+}
