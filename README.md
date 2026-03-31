@@ -3,5 +3,5 @@ this is not for reset.css.
 
 ## Usage
 ```html
-<link rel="stylesheet" href="https://raw.githubusercontent.com/asterf/default.css/refs/heads/main/default.css">
+<link rel="stylesheet" href="https://raw.githack.com/asterf/default.css/main/default.css">
 ```
