@@ -54,6 +54,7 @@ html{
 			flex-direction: column;
 		}
 		.center{
+			text-align: center;
 			align-items: center;
 			justify-content: center;
 		}
