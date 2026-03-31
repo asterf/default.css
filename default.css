@@ -36,7 +36,7 @@ html{
     	--fg: var(--mono-light);
   	}
 
-	  &.white {
+	  &.light {
     	--bg: var(--mono-white);
     	--fg: var(--mono-mid);
   	}
@@ -52,11 +52,10 @@ html{
 		.flex{
 			display: flex;
 			flex-direction: column;
-
-			.center{
-				align-items: center;
-				justify-content: center;
-			}
+		}
+		.center{
+			align-items: center;
+			justify-content: center;
 		}
 	}
 }
